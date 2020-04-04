@@ -41,7 +41,7 @@ public class ContractorTest {
         ((Electrician)elec).setWiringCost(300);
         workers.get(0).setHoursWorked(20);
         project2.addWorkers(workers);
-        //System.out.printf(project2.toString(), project2.getName(), project2.getTotalCost(), project2.getOverhead());
+        System.out.printf(project2.toString(), project2.getName(), project2.getTotalCost(), project2.getOverhead());
 
         if (project2.compareTo(project1) < 0){
             System.out.println("\nThe " + project2.getName() + " project is " + "scheduled before " + project1.getName());
@@ -49,6 +49,5 @@ public class ContractorTest {
             System.out.println("\nThe " + project1.getName() + " project is " + "scheduled prior to " + project2.getName());
         }
         System.out.println("\n");
-        // project2.printPayRoll();
     }
 }

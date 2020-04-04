@@ -66,7 +66,8 @@ public class Project implements Comparable {
             projectDetails += w.toString() + "\n\n";
         }
         projectDetails += "Project Total: $%.2f\n";
-        projectDetails += "Contractor Overhead: $%.2\n";
+        projectDetails += "Contractor Overhead: $%.2f\n";
         return projectDetails;
     }
+
 }
